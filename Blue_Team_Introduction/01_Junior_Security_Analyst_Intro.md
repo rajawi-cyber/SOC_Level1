@@ -17,7 +17,7 @@ Understand the role of a Junior SOC Analyst, including basic duties, workflows, 
   4. Collaborate with teammates to build detection rules and automations  
   5. Understand company operations to enhance security measures  
 
-**Screenshots / Evidence (Optional):**  
+**Screenshots / Evidence:**  
 - Malicious IP address in the alerts  
 - Escalate the alert with the malicious IP to SOC Team Leader  
 - Blocking the IP address on the firewall  
