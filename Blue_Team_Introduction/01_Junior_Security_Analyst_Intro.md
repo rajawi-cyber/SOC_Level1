@@ -18,7 +18,7 @@ Understand the role of a Junior SOC Analyst, including basic duties, workflows, 
   5. Understand company operations to enhance security measures  
 
 **Screenshots / Evidence:**  
-- Malicious IP address in the alerts  
+- Malicious IP address in the alerts  ![Malicious IP](../../Blue_Team_Introduction/images/Malicious_ip.png)
 - Escalate the alert with the malicious IP to SOC Team Leader  
 - Blocking the IP address on the firewall  
 
