@@ -14,7 +14,7 @@ The goal of this repository is to build a **portfolio** demonstrating my skills 
 - [Humans as Attack Vectors](Blue_Team_Introduction/03_Humans_as_Attack_Vectors.md)  
 - [Systems as Attack Vectors](Blue_Team_Introduction/04_Systems_as_Attack_Vectors.md)
 
-  ### 2️⃣ SOC Team Internals
+### 2️⃣ SOC Team Internals
 - [SOC L1 Alert Triage](01_L1_Alert_Triage/README.md)  
 - [SOC L1 Alert Reporting](02_L1_Alert_Reporting/README.md)  
 - [SOC Workbooks and Lookups](03_Workbooks_and_Lookups/README.md)  
