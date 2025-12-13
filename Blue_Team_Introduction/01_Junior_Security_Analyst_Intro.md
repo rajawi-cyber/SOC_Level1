@@ -18,9 +18,15 @@ Understand the role of a Junior SOC Analyst, including basic duties, workflows, 
   5. Understand company operations to enhance security measures  
 
 **Screenshots / Evidence:**  
+
 - Malicious IP address in the alerts  
+  ![Malicious IP](../Screenshots/Malicious_IP.png)
+
 - Escalate the alert with the malicious IP to SOC Team Leader  
+  ![Escalation](../Screenshots/Escalate_alert.png)
+
 - Blocking the IP address on the firewall  
+  ![Firewall Block](../Screenshots/Block_IP_on_firewall.png) 
 
 **Tips / Notes:**  
 - Junior SOC Analysts are the first line of defense in cybersecurity incidents
