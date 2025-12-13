@@ -1,1 +1,3 @@
+# SOC Team Internals
+This folder contains all the sections related to SOC Team Internals, including L1 Alert Triage, Alert Reporting, Workbooks and Lookups, and Metrics and Objectives. Each subfolder includes a README with explanations, practical examples, and templates to help you understand SOC operations. You will learn how to handle and classify alerts efficiently, document and report incidents properly, use workbooks and lookups for investigation and enrichment, and track key SOC metrics to measure performance and objectives. This structure is designed to give a clear, organized view of SOC processes for learning and reference purposes.
 
