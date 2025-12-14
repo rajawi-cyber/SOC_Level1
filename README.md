@@ -24,7 +24,7 @@ The goal of this repository is to build a **portfolio** demonstrating my skills 
 
 ## 📁 Screenshots
 All screenshots and evidence files are stored here:  
-`Blue_Team_Introduction/Screenshots/`  
+`/Screenshots/`  
 
 ---
 
