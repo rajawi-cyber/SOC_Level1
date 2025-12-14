@@ -1,1 +1,48 @@
+# SOC L1 Alert Triage
+
+**Goal / Objective:**  
+Understand the processes of alert triage in a SOC Level 1 environment, including how to detect, prioritize, and respond to security alerts.
+
+---
+
+## Key Terms / Concepts
+- **SOC:** Security Operations Center  
+- **Alert:** Notification about a potential security incident  
+- **Triage:** Prioritizing alerts based on severity  
+- **Alert Management Platforms:** SIEM dashboards, Ticketing Systems, EDR alerts  
+
+---
+
+## Practical Steps / Exercises
+**Duties of a SOC L1 Analyst:**  
+1. Review incoming alerts from SIEM dashboards.  
+2. Classify alerts as True Positive, False Positive, or Benign.  
+3. Investigate suspicious IP addresses, domains, or file hashes.  
+4. Escalate confirmed incidents to SOC Team Leader or L2 Analyst.  
+5. Document findings and mitigation actions accurately.  
+
+---
+
+## Screenshots / Evidence (Optional)
+**Alert Properties**  
+- **Alert Time:** Shows alert creation time (usually a few minutes after the actual event).  
+  - Example: `Mar 21st 2025 at 11:53`  
+- **Alert Name:** Summary based on detection rule.  
+  - Example: `Bruteforce Attack from External`  
+- **Alert Severity:** Defines urgency. Initially set by detection engineers but can be adjusted.  
+  - Example: 🟡 `Medium / Moderate`  
+- **Alert Status:** Indicates if someone is working on it or if triage is done.  
+  - Example: ✅ `Closed / Resolved`  
+- **Alert Verdict:** Explains if the alert is a real threat or noise.  
+  - Example: 🟢 `True Positive / Real Threat`  
+- **Alert Assignee:** Analyst assigned to review the alert.  
+  - Example: `J.Adams (L2)`  
+- **Alert Description:** Explains what the alert is about.  
+  - Example: `The rule detects 50 or more failed logins on a single system from an external IP within a short period. May indicate the system is Internet-exposed and actively bruteforced.`  
+- **Alert Fields:** SOC analysts' comments and values on which the alert was triggered.  
+  - Example: `WIN-ITDEV, RDP`  
+
+**Example Screenshot**
+
+![Alert Screenshot](Screenshots/Example_Alert.png)
 
