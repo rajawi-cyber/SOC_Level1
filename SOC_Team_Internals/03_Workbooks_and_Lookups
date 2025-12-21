@@ -1,1 +1,45 @@
 
+# SOC Workbooks and Lookups
+
+## Goal / Objective
+Learn how SOC analysts use workbooks, lookup tables, and threat intelligence to efficiently investigate and triage security alerts.
+
+---
+
+## Key Terms / Concepts
+- **Workbook:** Predefined dashboards and queries used to analyze alerts and logs quickly  
+- **Lookup Table:** Reference tables used to identify known malicious IPs, domains, or hashes  
+- **Threat Intelligence:** External data sources used to enrich alerts and provide context  
+
+---
+
+## Practical Steps / Exercises
+- Opened SOC workbooks related to different alert types  
+- Analyzed alerts using predefined queries and visualizations  
+- Used lookup tables to validate suspicious IP addresses and domains  
+- Cross-referenced indicators with threat intelligence sources  
+- Monitored medium-risk indicators and escalated confirmed malicious activity  
+- Automated repetitive queries to improve investigation efficiency  
+
+---
+
+## Investigation Outcome
+- Identified suspicious and malicious IP addresses  
+- Successfully extracted investigation flags during hands-on lab exercises  
+- Applied proper triage decisions (Monitor vs Escalate)  
+- Escalated confirmed malicious indicators to the SOC Team Leader  
+
+---
+
+## Screenshots / Evidence (Optional)
+- Alert showing malicious IP activity  
+- Validation of IP reputation using lookup tables  
+- Escalation ticket created for confirmed malicious activity  
+- Firewall rule blocking the malicious IP  
+
+---
+
+## Tips / Notes
+- Accurate lookup tables significantly reduce alert triage time  
+- Threat intelligence should be continuously updated  
+- All changes to lookup tables must be documented for auditing and traceability  
