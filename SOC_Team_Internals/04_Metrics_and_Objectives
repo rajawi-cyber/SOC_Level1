@@ -1,1 +1,29 @@
+# SOC Metrics and Objectives
+
+**Goal / Objective:**  
+Track and analyze SOC performance metrics to ensure effective alert triage and incident handling.
+
+**Key Terms / Concepts:**  
+MTTA (Mean Time to Acknowledge): Average time taken to acknowledge alerts.
+MTTR (Mean Time to Resolve): Average time to resolve incidents.
+Alerts Count: Total number of alerts handled per shift.
+False Positive Rate (FPR): Percentage of alerts incorrectly flagged.
+Alert Escalation Rate (AER): Percentage of alerts escalated to higher SOC levels.
+Threat Detection Rate (TDR): Effectiveness in detecting real threats.
+Service Level Agreement (SLA): Agreed timeframe for incident response.
+
+Service Level Agreement (SLA)
+
+**Practical Steps / Exercises:**  
+- Track MTTA and MTTR for handled alerts  
+- Calculate false positive rate from recent alerts  
+- Analyze escalation trends to improve triage rules  
+- Use metrics to identify areas for process improvement  
+- Report metrics to SOC manager regularly  
+
+
+**Tips / Notes:**  
+Monitoring metrics improves SOC efficiency and alert accuracy.
+Consistent reporting helps management track analyst performance.
+Accurate data collection highlights areas for further training and skill improvement.
 
