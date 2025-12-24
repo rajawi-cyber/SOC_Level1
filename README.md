@@ -18,7 +18,14 @@ The goal of this repository is to build a **portfolio** demonstrating my skills 
 - [SOC L1 Alert Triage](01_L1_Alert_Triage/README.md)  
 - [SOC L1 Alert Reporting](02_L1_Alert_Reporting/README.md)  
 - [SOC Workbooks and Lookups](03_Workbooks_and_Lookups/README.md)  
-- [SOC Metrics and Objectives](04_Metrics_and_Objectives/README.md)  
+- [SOC Metrics and Objectives](04_Metrics_and_Objectives/README.md)
+
+### 3️⃣ Core SOC Solutions
+- [Introduction to EDR](Core_SOC_Solutions/01_Introduction_to_EDR.md)  
+- [Introduction to SIEM](Core_SOC_Solutions/02_Introduction_to_SIEM.md)  
+- [Splunk: The Basics](Core_SOC_Solutions/03_Splunk_The_Basics.md)  
+- [Elastic Stack: The Basics](Core_SOC_Solutions/04_Elastic_Stack_The_Basics.md)  
+- [Introduction to SOAR](Core_SOC_Solutions/05_Introduction_to_SOAR.md)  
 
 ---
 
