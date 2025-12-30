@@ -48,7 +48,7 @@ An EDR alert was triggered after a macro-enabled Microsoft Office document (**in
 
 ### Evidence 1 – Malicious Document Execution
 The user opened a macro-enabled Office document (**invoice.docm**) using WINWORD.EXE. The document spawned CMD, initiating the first step of the malicious activity chain.  
-![Evidence 1 – WINWORD Execution](./Core_SOC_Solutions/Screenshots/evidence1_winword.png)
+![Evidence 1 – WINWORD Execution](../Screenshots/evidence1_winword.png)
 
 
 ---
