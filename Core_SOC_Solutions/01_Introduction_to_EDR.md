@@ -48,34 +48,34 @@ An EDR alert was triggered after a macro-enabled Microsoft Office document (**in
 
 ### Evidence 1 – Malicious Document Execution
 The user opened a macro-enabled Office document (**invoice.docm**) using WINWORD.EXE. The document spawned CMD, initiating the first step of the malicious activity chain.  
-
+![Evidence 1 – WINWORD Execution](./Screenshots/evidence1_winword.png)
 
 
 ---
 
 ### Evidence 2 – Command Execution via Macro
 The Office macro triggered CMD.EXE, an abnormal child process for Word, indicating potential malware execution.  
-
+![Evidence 2 – CMD Execution](./Screenshots/evidence2_cmd.png)
 
 
 ---
 
 ### Evidence 3 – Payload Download via cURL
 CMD.EXE launched cURL to download a payload from an external domain, consistent with staging behavior rather than immediate execution.  
-
+![Evidence 3 – cURL Payload Download](./Screenshots/evidence3_curl.png)
 
 
 ---
 
 ### Evidence 4 – Dropped Payload (install.exe)
 The downloaded file (**install.exe**) was saved to disk in the Public folder. The payload was suspicious, unsigned, and known in malware campaigns. EDR quarantined the file before execution.  
-
+![Evidence 4 – Dropped Payload](./Screenshots/evidence4_install.png)
 
 
 ---
 
 ### Evidence 5 – MITRE ATT&CK Mapping
 The activity was mapped to MITRE ATT&CK Initial Access, specifically T1566.001 – Spearphishing Attachment, confirming phishing as the initial infection vector.  
-
+![Evidence 5 – MITRE ATT&CK](./Screenshots/evidence5_mitre.png)
 
 
