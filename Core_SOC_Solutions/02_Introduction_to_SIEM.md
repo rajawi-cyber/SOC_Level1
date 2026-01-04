@@ -53,6 +53,7 @@ Understand the fundamentals of **Security Information and Event Management (SIEM
 ## Evidence 
 
 * SIEM dashboard displaying active alerts.
+  ![Clicked Start Suspicious Activity](../Screenshots/evidence1_start.png)
 * Example of a correlated security event.
 * Alert investigation view with event details.
 * Response action.
