@@ -50,16 +50,6 @@ Understand the fundamentals of **Security Information and Event Management (SIEM
 
 ---
 
-## Evidence 
-
-* SIEM dashboard displaying active alerts.
-  ![Clicked Start Suspicious Activity](../Screenshots/start_suspicious_activity.png)
-* Example of a correlated security event.
-* Alert investigation view with event details.
-* Response action.
-
----
-
 ## Lab Scenario: Suspicious Activity Alert Investigation
 
 **Scenario Overview:**
@@ -68,11 +58,16 @@ During SIEM monitoring, a suspicious activity was manually triggered within the 
 **Investigation Steps:**
 
 1. Clicked on **Start Suspicious Activity**, which triggered a SIEM alert.
+   ![Clicked Start Suspicious Activity](../Screenshots/start_suspicious_activity.png)
 2. Navigated to the **Alerts/Dashboard** view to identify the triggered alert.
+   ![Alerts Dashboard](../Screenshots/alerts_dashboard.png)
 3. Opened the alert to review correlated events.
+   ![Alert Event Details](../Screenshots/alert_event_details.png)
 4. Identified the suspicious **process name**, **executing user**, and **hostname** from event details.
 5. Reviewed the detection rule logic to determine which term matched and caused the alert.
+   ![Rule Match and True Positive](../Screenshots/rule_match_true_positive.png)
 6. Assessed the activity and classified the alert as a **True Positive**.
+    ![Rule Match and True Positive](../Screenshots/rule_match_true_positive2.png)
 7. Selected the appropriate response action, which revealed the lab **FLAG**.
 
 **Outcome:**
